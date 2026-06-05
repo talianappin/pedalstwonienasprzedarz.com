@@ -1,0 +1,116 @@
+@font-face {
+	font-family: Roboto;
+	src: url(assets/Roboto.ttf);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ebe6eb;
+	font-family: Roboto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#vert-img {
+	display: none;
+}
+
+main {
+	padding-top: 8%;
+	padding-bottom: 10%;
+}
+
+#map {
+	float: right;
+}
+
+#location-info {
+	color: #ff3bfc;
+	background-color: #1f1e1f;
+	padding: 8%;
+
+}
+
+#location-info h1 {
+	font-size: 5em;
+	margin-top: 0%;
+}
+
+#location-info p {
+	font-size: 2em;
+	color: white;
+}
+
+#location-info a {
+	color: #ff3bfc;
+}
+
+#lang-buttons-pool {
+	padding-top: 15%;
+	display: block;
+	align-content: center;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+}
+
+.lang-button {
+	padding: 2%;
+	margin-right: 3%;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	background-color: #ff3bfc;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+
+.lang-button:hover {
+	background-color: #ff9dfe;
+	transition-duration: 0.5s;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+#eng p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+@media only screen and (orientation: portrait) {
+
+
+	body {
+		padding-left: 1%;
+		padding-right: 1%;
+		overflow-wrap: break-word;
+	}
+
+	#vert-img {
+		display: block;
+	}
+
+	#banner-img {
+		display: none;
+	}
+
+	#map {
+		display: none;
+	}
+
+	.lang-button {
+		font-size: 2.5em;
+		margin-right: 5%;
+	}
+}
